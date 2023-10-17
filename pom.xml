@@ -52,6 +52,17 @@
                 </plugin>
             </plugins>
         </pluginManagement>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.rat</groupId>
+                <artifactId>apache-rat-plugin</artifactId>
+                <configuration>
+                    <excludes>
+                        <exclude>src/main/resources/META-INF/services/org.apache.sling.feature.analyser.task.AnalyserTask</exclude>
+                    </excludes>
+                </configuration>
+            </plugin>
+        </plugins>
     </build>
     <dependencyManagement>
         <dependencies>
