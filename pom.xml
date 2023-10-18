@@ -39,6 +39,12 @@
         <project.build.outputTimestamp>1675867676</project.build.outputTimestamp>
     </properties>
 
+    <scm>
+        <connection>scm:git:https://gitbox.apache.org/repos/asf/sling-org-apache-sling-feature-analyser-classes.git</connection>
+        <developerConnection>scm:git:https://gitbox.apache.org/repos/asf/sling-org-apache-sling-feature-analyser-classes.git</developerConnection>
+        <url>https://github.com/apache/sling-org-apache-sling-feature-analyser-classes</url>
+   </scm>
+
     <build>
         <pluginManagement>
             <plugins>
