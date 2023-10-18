@@ -1,0 +1,18 @@
+github:
+  description: "Apache Sling Feature Model Analyser For Classes"
+  homepage: "https://sling.apache.org/"
+  labels:
+  - "java"
+  - "sling"
+  - "osgi"
+  - "osgi-feature-model"
+  autolink_jira:
+  - "SLING"
+  - "OAK"
+  - "JCR"
+  - "JCRVLT"
+  - "INFRA"
+  - "FELIX"
+  - "MNG"
+notifications:
+  jira_options: "link"
